@@ -3,10 +3,12 @@ Code used for the paper "Decentralized Predicate Detection over Partially Synchr
 
 Steps to run a simple example with signals in the `signals` directory, a conjunctive predicate of $x_1 \geq 0 \land x_2 \geq 0 \land x_3 \geq 0$, and a max clock skew of 0.1:
 
-1. After starting Julia 1.8.2 in this directory: `]activate .`
-2. `instantiate`
-3. *\<backspace\>* `using phryctoria`
-4. `startmonitor(3, .1)`
+1. Start Julia 1.8.2 in the src directory
+2. `]activate .`
+   (note the dot after activate! The closed bracket puts you in package mode)
+3. `instantiate`
+4. *\<backspace\>* `using phryctoria`
+5. `startmonitor(3, .1)`
 
 where 3 is the number of agents and .1 is the value of epsilon (max clock drift). You can change these of course.
 
