@@ -3,7 +3,7 @@ Code used for the paper "Decentralized Predicate Detection over Partially Synchr
 
 Steps to run a simple example with signals in the `signals` directory, a conjunctive predicate of $x_1 \geq 0 \land x_2 \geq 0 \land x_3 \geq 0$, and a max clock skew of 0.1:
 
-1. Start Julia 1.8.2 in the src directory
+1. Start Julia 1.8.2
 2. `]activate .`
    (note the dot after activate! The closed bracket puts you in package mode)
 3. `instantiate`
